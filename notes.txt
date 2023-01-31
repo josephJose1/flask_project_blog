@@ -1,0 +1,26 @@
+#update paquegues
+sudo apt update and sudo apt upgrade -y
+
+#https://dev.mysql.com/doc/mysql-apt-repo-quick-guide/en/
+
+sudo apt-get install mysql-server
+
+mysqld is running as pid 10770
+
+systemctl status mysql
+systemctl stop mysql
+
+project directory name
+flask-tutorial vs tutorial
+
+****
+
+python3 -m venv env
+source env/bin/activate
+python3 -m pip install --upgrade pip
+
+#run the application
+flask --app flaskr --debug run
+
+#initilize
+flask --app flaskr init-db
