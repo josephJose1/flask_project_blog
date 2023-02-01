@@ -24,3 +24,8 @@ flask --app flaskr --debug run
 
 #initilize
 flask --app flaskr init-db
+
+#https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts
+git fetch --prune
+git pull
+git config pull.rebase false
